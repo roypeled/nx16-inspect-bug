@@ -26,6 +26,8 @@
     "serve": {
       "executor": "@nx/js:node",
       "defaultConfiguration": "development",
+      "inspect": true,
+      "port": 9300,
       "options": {
         "buildTarget": "api:build"
       },
